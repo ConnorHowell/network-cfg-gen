@@ -56,7 +56,7 @@ The following placeholders can be used in the base.json file:
 ```
 
 ## TODO:
-- Add additional placeholders with modifiers e.g. `IP_ADDRESS.CIDR` for the IP address in CIDR notation
+- Add additional placeholders with modifiers e.g. `{IP_ADDRESS.CIDR}` for the IP address in CIDR notation
 - Add support for IPv6 address generation.
 - Allow the script to read asset tags and other parameters from a CSV or JSON file.
 - Implement a dry-run mode to preview the generated configurations without writing files.
